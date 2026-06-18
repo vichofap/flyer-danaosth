@@ -230,7 +230,8 @@ textarea { resize: vertical; min-height: 72px; line-height: 1.5; }
       <div class="card-header"><span class="dot"></span> Foto del producto</div>
       <div class="card-body">
         <div class="upload-zona" id="upload-zona">
-          <input type="file" accept="image/*" id="foto-input" onchange="cargarFoto(event)">
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/heic" 
+            id="foto-input" onchange="cargarFoto(event)">
           <div class="up-icon">📸</div>
           <div class="up-text">Sube la foto de la prenda</div>
           <div class="up-sub">JPG · PNG · WEBP — máx 10MB</div>
